@@ -8,6 +8,11 @@ sudo apt-get update && sudo apt-get install -y git
 git clone https://github.com/ableat/pi_video_looper.git
 ```
 
+```
+cd pi_video_looper
+sudo ./install.sh
+```
+
 Once installed eject the sd card and mount the `/boot` partition on your local machine.
 
 We need to append `config.txt` with the following two lines:
